@@ -11,7 +11,7 @@ api = tweepy.API(auth)
 # Where q='#example', change #example to whatever hashtag or keyword you want to search.
 # Where items(5), change 5 to the amount of retweets you want to tweet.
 # Make sure you read Twitter's rules on automation - don't spam!
-for tweet in tweepy.Cursor(api.search, q='#spacex' && q='#python').items(500):
+for tweet in tweepy.Cursor(api.search, q='#spacex').items(500):
     try:
         print('\nRetweet Bot found tweet by @' + tweet.user.screen_name + '. ' + 'Attempting to retweet.')
 
