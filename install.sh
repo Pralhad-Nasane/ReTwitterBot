@@ -122,7 +122,7 @@ echo " "
 echo " "
 echo -e "$grn ＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜$rset"
 echo " "
-
+cd $HOME ;;
 3)echo " "
 echo " "
 echo " "
