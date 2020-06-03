@@ -46,22 +46,16 @@ read n
 case "$n" in
 1)echo " "
 echo " "
-echo -e "$grn 𝑯𝒆𝒍𝒍𝒐𝒘 𝑮𝒖𝒚𝒔 𝑻𝒐 𝑰𝑵𝑺𝑻𝑨𝑳𝑳 𝑩𝑶𝑻 𝒀𝒐𝒖 𝑯𝒂𝒗𝒆 𝒕𝒐 𝑭𝒊𝒓𝒔𝒕 𝑬𝒅𝒊𝒕 𝑺𝒐𝒎𝒆 𝑰𝒏𝒇𝒐𝒓𝒎𝒂𝒕𝒊𝒐𝒏 𝑨𝒔 𝑷𝒆𝒓 𝑰𝒏𝒔𝒕𝒓𝒖𝒄𝒕𝒊𝒐𝒏"
-echo ""
-echo -e "$ylo  𝟣) 𝖤𝗇𝗍𝖾𝗋 𝖠𝗅𝗅 𝖸𝗈𝗎𝗋 𝖲𝗈𝗎𝗋𝖼𝖾 𝖪𝖾𝗒 𝗂𝗇 𝗅𝖾𝗒𝗌.𝗉𝗒 𝖿𝗂𝗅𝖾"
-
-ech -e "$ylo   𝟤) 𝖠𝖿𝗍𝖾𝗋 𝖳𝗁𝖺𝗍 𝖾𝖽𝗂𝗍 𝖱𝖾𝗍𝗐𝖾𝖾𝗍.𝗉𝗒 𝖿𝗂𝗅𝖾" 
-
-ech -e "$ylo   𝟥) 𝖤𝗇𝗍𝖾𝗋 𝗒𝗈𝗎𝗋 𝖧𝖺𝗌𝗍𝖺𝗀𝗌 𝗂𝗇 𝖱𝖾𝗍𝗐𝖾𝖾𝗍.𝗉𝗒 𝖿𝗂𝗅𝖾"
-
-ech -e "$ylo   𝟦) 𝖠𝗅𝗅 𝖽𝖾𝗍𝖺𝗂𝗅 𝖥𝗈𝗋 𝖤𝖽𝗂𝗍𝗂𝗇𝗀 𝖺𝗋𝖾 𝖦𝗂𝗏𝖾𝗇 𝖨𝗇 𝖥𝗂𝗅𝖾 𝖳𝗈𝗈."
-
-ech -e "$ylo   𝟧) 𝖸𝗈𝗎 𝖢𝖺𝗇 𝖮𝗉𝖾𝗇 𝖳𝗁𝗂𝗌 𝖠𝗅𝗅 𝖥𝗂𝗅𝖾 𝖡𝗒 𝖩𝗎𝗌𝗍 𝖤𝗇𝗍𝖾𝗋𝗂𝗇𝗀 𝗇𝖺𝗇𝗈 𝖿𝗂𝗅𝖾𝗇𝖺𝗆𝖾"
- 
-ech -e "$ylo   𝟨) 𝖮𝗋 𝖸𝗈𝗎 𝖢𝖺𝗇 𝖱𝖾𝖺𝖽 𝖠𝗅𝗅 𝖯𝗋𝗈𝖼𝖾𝗌𝗌 𝗂𝗇 𝗋𝖾𝖺𝖽𝗆𝖾.𝗆𝖽 𝖡𝗒 𝗏𝗂𝗌𝗂𝗍𝗂𝗇𝗀 𝖬𝗒 𝖦𝗂𝗍𝗁𝗎𝖻 𝗅𝗂𝗇𝗄."
+echo -e "$red You are going to$grn open process for$red ReTwitterBot$rset"
 echo " "
+echo -e "$grn          Press$ylo ENTER$red to continue$rset"
+echo " "
+read hulke
+cd $HOME/ReTwitterBot
+bash process.sh
 echo " "
 echo -e "$ylo You can exit from this by cnt+c$rset"
+cd $HOME/ReTwitterBot ;;
 2)echo " "
 echo " "
 echo " "
