@@ -12,7 +12,7 @@ api = tweepy.API(auth)
 # Where items(5), change 5 to the amount of retweets you want to tweet.
 # Make sure you read Twitter's rules on automation - don't spam!
 from query import *
-    try:
+    
         print('\nRetweet Bot found tweet by @' + tweet.user.screen_name + '. ' + 'Attempting to retweet.')
 
         tweet.retweet()
