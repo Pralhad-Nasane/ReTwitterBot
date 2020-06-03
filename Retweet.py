@@ -14,7 +14,7 @@ api = tweepy.API(auth)
 for tweet in tweepy.Cursor(api.search, q=('#Polio OR #SPFx -filter:retweets'), lang='en').items(5):
     try:
         # Add \n escape character to print() to organize tweets
-        print('\nTweet by: @' + tweet.user.screen_name)
+        print('\nTweet by: @' + tweet.user.screen_name + '. ' + 'Attempting to retweet.')
 
         # Retweet tweets as they are found
         tweet.retweet()
