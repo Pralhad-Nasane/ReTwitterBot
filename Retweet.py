@@ -16,7 +16,7 @@ api = tweepy.API(auth)
 # Where items(5), change 5 to the amount of retweets you want to tweet.
 # Make sure you read Twitter's rules on automation - don't spammer.
 print('Welcome To ReTwitterBot')
-for tweet in tweepy.Cursor(api.search, q=('#Polio OR #SPFx -filter:retweets'), lang='en').items(5):
+for tweet in tweepy.Cursor(api.search, q=('#NASA OR #ISRO -filter:retweets'), lang='en').items(5):
     try:
        
         print('\nTweet by: @' + tweet.user.screen_name + '. ' + 'Attempting to retweet.')
