@@ -11,22 +11,17 @@ api = tweepy.API(auth)
 # Where q='#example', change #example to whatever hashtag or keyword you want to search.
 # Where items(5), change 5 to the amount of retweets you want to tweet.
 # Make sure you read Twitter's rules on automation - don't spammer.
-for tweet in tweepy.Cursor(api.search, q=('#Motivation OR #ISRO -filter:retweets'), lang='en').items(10):
-  try:
-       print('\nRetweet Bot found tweet by @' + tweet.user.screen_name + '. ' + 'Attempting to retweet.')
+for tweet in tweepy.Cursor(api.search, q=('#Polio OR #SPFx -filter:retweets'), lang='en').items(5):
+    try:
+        # Add \n escape character to print() to organize tweets
+        print('\nTweet by: @' + tweet.user.screen_name)
 
+        # Retweet tweets as they are found
         tweet.retweet()
-        print('Retweet published successfully.')
+        print('Retweeted the tweet')
 
-        # Where sleep(10), sleep is measured in seconds.
-        # Change 10 to amount of seconds you want to have in-between retweets.
-        # Read Twitter's rules on automation. Don't spam!
-        sleep(2)
-
-    # Some basic error handling. Will print out why retweet failed, into your terminal.
-    except tweepy.TweepError as error:
-        print('\nError. Retweet not successful. Reason: ')
-        print(error.reason)
+    except tweepy.TweepError as e:
+        print(e.reason)
 
     except StopIteration:
         break
