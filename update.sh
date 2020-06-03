@@ -35,7 +35,7 @@ echo -e "$grn                updating the ReTwitterBot please wait$rset"
 sleep 2.0
 cd $HOME
 rm -rf ReTwitterBot
-git clone https://github.com/noob-hackers/m-wiz
+git clone https://github.com/Pralhad-Nasane/ReTwitterBot
 clear
 echo " "
 echo -e "$grn               ReTwitterBot has been updated check it now...$rset"
