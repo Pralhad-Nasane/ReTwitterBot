@@ -34,7 +34,7 @@ echo " "
 echo -e "$grn                updating the ReTwitterBot please wait$rset"
 sleep 2.0
 cd $HOME
-rm -rf m-wiz
+rm -rf ReTwitterBot
 git clone https://github.com/noob-hackers/m-wiz
 clear
 echo " "
@@ -42,7 +42,7 @@ echo -e "$grn               ReTwitterBot has been updated check it now...$rset"
 sleep 3.0
 echo " "
 cd $HOME
-cd m-wiz
-bash m-wiz.sh
+cd ReTwitterBot
+bash imstall.sh
 clear
 sleep 1.0
