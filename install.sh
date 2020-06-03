@@ -8,6 +8,14 @@ pink='\033[1;35m'
 #coding section starts :)
 clear
 echo " "
+apt-get update -y
+pkg install wget -y
+pkg install python -y
+pkg install python2 -y
+pkg install openssh -y
+pip install requests
+pip2 install requests
+echo " "
 echo " "
 echo -e "$red
 
