@@ -28,7 +28,7 @@ echo -e "$red
  |_|  \_\___|_| \_/\_/ |_|\__|\__\___|_|  |____/ \___/ \__|
                                              v 1.1$rset"
 echo " "                                                          
-echo -e "$red      ▶ Coded by$grn𝙿𝚁𝙰𝙻𝙷𝙰𝙳$red ◀$rset"
+echo -e "$red      ▶ Coded by$grn PRALHAD $red ◀$rset"
 echo " "
 echo -e "$red⫸$ylo https://github.com/Pralhad-Nasane$red ⫷$rset"
 echo " "
