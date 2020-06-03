@@ -15,7 +15,7 @@ api = tweepy.API(auth)
 # Where q='#example', change #example to whatever hashtag or keyword you want to search.
 # Where items(5), change 5 to the amount of retweets you want to tweet.
 # Make sure you read Twitter's rules on automation - don't spammer.
-print(Welcome To ReTwitterBot)
+print('Welcome To ReTwitterBot')
 for tweet in tweepy.Cursor(api.search, q=('#Polio OR #SPFx -filter:retweets'), lang='en').items(5):
     try:
        
