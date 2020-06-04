@@ -124,10 +124,7 @@ python3 Retweet.py
 echo " "
 echo " "
 echo -e "$grn ＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜$rset"
-echo " "
-cd $HOME
-cd 
-ls ;;
+echo " " ;;
 3)echo " "
 echo " "
 echo " "
