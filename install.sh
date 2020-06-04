@@ -193,12 +193,10 @@ clear
 echo " "
 clear
 echo -e "$ylo
-________   _______ 
-| ___ \ \ / /  ___|
-| |_/ /\ V /| |__  
-| ___ \ \ / |  __| 
-| |_/ / | | | |___ 
-\____/  \_/ \____/ $cyan Have A Nice Day Buddy $rset" 
+   ____  _  _  ____   
+  (  _ \( \/ )(  __)
+  ) _ ( )  /  ) _) 
+  (____/(__/  (____) $cyan Have A Nice Day Buddy $rset" 
 echo " "
 echo " "
 exit
