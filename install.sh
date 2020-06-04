@@ -191,12 +191,8 @@ bash install.sh ;;
 sleep 2.0
 clear
 echo " "
-echo -e "$grn
-                       ____  _  _  ____    ____  _  _  ____ 
-                      (  _ \( \/ )( ___)  (  _ \( \/ )( ___)
-                      ) _ < \  /  )__)    ) _ < \  /  )__) 
-                      (____/ (__) (____)  (____/ (__) (____)...$cyan have a awesome day$rset"
-echo " "
+cd $HOME/ReTwitterBot
+bash exit.sh
 echo " "
 exit
 esac
