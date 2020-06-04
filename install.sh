@@ -1,3 +1,8 @@
+################################################################################
+#  PLEASE DON'T CHANGR ANY COMMANDS IN THIS SCRIPT OTHERWISE IT WILL NOT WORK. #
+#  AUTHOR    : PRALHAD NASANE                                                  #
+#  DATE      : 03-JUNE-2020                                                    #
+################################################################################
 red='\033[1;31m'
 rset='\033[0m'
 grn='\033[1;32m'
