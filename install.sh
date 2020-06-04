@@ -64,8 +64,17 @@ echo " "
 echo -e "$gr Press$ylo ENTER$grn to continue$rset"
 echo " "
 read nitro
+echo -e "$grn
+
+ ____  _____  ____    ___  ____   __    ____  ____  ____  ____          
+(  _ \(  _  )(_  _)  / __)(_  _) /__\  (  _ \(_  _)( ___)(  _ \   ()___ 
+ ) _ < )(_)(   )(    \__ \  )(  /(__)\  )   /  )(   )__)  )(_) )   (___)
+(____/(_____) (__)   (___/ (__)(__)(__)(_)\_) (__) (____)(____/   ()    
+                                                  v 1.1$rset"
+echo " "
+echo " "
 cd $HOME/ReTwitterBot
-echo "$yellow +~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~ "
+echo "$ylo +~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~ "
 sleep 3.50
 echo " "
 echo  $p 'Please Wait ===+['$b'./                   '$p']\'
@@ -116,11 +125,10 @@ clear
 echo  $p 'Please Wait ===+['$b'.................../ '$p']|'
 sleep 0.4
 echo " "
-ls
 python3 Retweet.py
 echo " "
 echo " "
-echo -e "$grn ＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜＜$rset"
+echo -e "$grn ＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜$rset"
 echo " "
 cd $HOME ;;
 3)echo " "
@@ -176,10 +184,10 @@ sleep 2.0
 clear
 echo " "
 echo -e "$grn
-                       ____  _  _  ____    ____  _  _  ____ 
-                      (  _ \( \/ )( ___)  (  _ \( \/ )( ___)
-                      ) _ < \  /  )__)    ) _ < \  /  )__) 
-                      (____/ (__) (____)  (____/ (__) (____)...$cyan have a nice day$rset"
+     ____  _  _  ____    ____  _  _  ____ 
+    (  _ \( \/ )( ___)  (  _ \( \/ )( ___)
+    ) _ < \  /  )__)    ) _ < \  /  )__) 
+    (____/ (__) (____)  (____/ (__) (____)...$cyan have a nice day$rset"
 echo " "
 echo " "
 exit
