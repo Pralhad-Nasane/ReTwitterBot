@@ -187,7 +187,7 @@ echo " "
 read punch
 cd $HOME/ReTwitterBot
 bash install.sh ;;
-10)
+6)
 sleep 2.0
 clear
 echo " "
