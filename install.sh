@@ -18,10 +18,10 @@ pip2 install requests
 clear
 echo " "
 echo -e "$grn  This Script Is Made For All Bot Lover Plz Don't Copy Any Part Of It $rset" 
+echo " "
 echo -e "$cyan  Author  $red: $grn Pralhad $rset"
 echo " "
 echo -e "$red
-
   _____   _______       _ _   _            ____        _   
  |  __ \ |__   __|     (_) | | |          |  _ \      | |  
  | |__) |___| |_      ___| |_| |_ ___ _ __| |_) | ___ | |_ 
@@ -30,15 +30,15 @@ echo -e "$red
  |_|  \_\___|_| \_/\_/ |_|\__|\__\___|_|  |____/ \___/ \__|
                                              v 1.1$rset"
 echo " "                                                          
-echo -e "$red      ▶ Coded by$grn PRALHAD $red ◀$rset"
+echo -e "$red          ▶ Coded by$grn PRALHAD $red ◀$rset"
 echo " "
-echo -e "$red⫸$ylo https://github.com/Pralhad-Nasane$red ⫷$rset"
+echo -e "$red     ⫸$ylo https://github.com/Pralhad-Nasane$red ⫷$rset"
 echo " "
-echo -e "$red===================$yloFollow Me On$red===================$rset"
+echo -e "$red=========================$ylo Follow Me On $red=====================$rset"
 echo " "
-echo -e "$ylo     Twitter @pralhadnasane10     instagram @pralhadnasane$rset"
+echo -e "$ylo Twitter @pralhadnasane10     instagram @pralhadnasane$rset"
 echo " "
-echo -e "$cyan----------------$grnHAVING ANY DOUBT ASK ME$cyan----------$rset"
+echo -e "$cyan-----------------$grnHAVING ANY DOUBT ASK ME$cyan--------------------$rset"
 echo " "
 echo -e "$grn ＞＞＞＞＞＞＞$ylo [OPTIONS]$grn ＜＜＜＜＜＜＜$rset"
 echo " "
@@ -130,9 +130,14 @@ echo " "
 echo -e "$grn >>>>>>>>>>>>>>>>>$ylo WELCOME TO RETWITTERBOT$grn <<<<<<<<<<<<<$rset"
 python3 Retweet.py
 echo " "
-echo " "
-echo -e "$grn ＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜$rset"
-echo " " ;;
+echo " -e "$ylo IF YOU WANT TO CONTINUE WITH CURRENT HASTAGS TTHEN CLICK $grn Y $rset" 
+read choice
+if [ $choice = 'Y' ] ; then
+cd $HOME/ReTwitterBot
+bash install.sh
+else
+echo -e "$ylo ---------YOU CAN EXIT BY CONTTOL +C----------- $rset"
+echo -e "$grn ＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜$rset" ;;
 3)echo " "
 echo " "
 echo " "
