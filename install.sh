@@ -186,13 +186,4 @@ echo -e "$cyan click$grn ENTER$cyan to go back into ReTwitterBot menu$rset"
 echo " "
 read punch
 echo " "
-cd $HOME/ReTwitterBot
-bash install.sh ;;
-4)
-sleep 2.0
-clear
-echo " "
-echo -e "$cyan have a awesome day$rset"
-echo " "
-echo " "
 esac
