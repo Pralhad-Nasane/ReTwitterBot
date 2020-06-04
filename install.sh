@@ -187,12 +187,15 @@ echo " "
 read punch
 cd $HOME/ReTwitterBot
 bash install.sh ;;
-6)echo " "
+10)
 sleep 2.0
 clear
 echo " "
-clear
-echo -e "$cyan Have A Nice Day Buddy......😘 $rset" 
+echo -e "$grn
+                       ____  _  _  ____    ____  _  _  ____ 
+                      (  _ \( \/ )( ___)  (  _ \( \/ )( ___)
+                      ) _ < \  /  )__)    ) _ < \  /  )__) 
+                      (____/ (__) (____)  (____/ (__) (____)...$cyan have a awesome day$rset"
 echo " "
 echo " "
 exit
