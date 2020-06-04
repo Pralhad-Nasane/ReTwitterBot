@@ -8,15 +8,6 @@ pink='\033[1;35m'
 #coding section starts :)
 clear
 echo " "
-apt-get update -y
-pkg install wget -y
-pkg install python -y
-pkg install python2 -y
-pkg install openssh -y
-pip install requests
-pip2 install requests
-clear
-echo " "
 echo -e "$grn  This Script Is Made For All Bot Lover Plz Don't Copy Any Part Of It $rset" 
 echo " "
 echo -e "$cyan  Author  $red: $grn Pralhad $rset"
@@ -128,10 +119,11 @@ clear
 echo  $p 'Please Wait ===+['$b'.................\   '$p']\'
 sleep 0.4
 clear
-echo  $p 'Please Wait ===+['$b'.................../ '$p']|'                                     sleep 0.4
+echo  $p 'Please Wait ===+['$b'.................../ '$p']|'                                  
+sleep 0.4
 echo " "
 echo " "
-echo -e "$grn ------------------- $ylo Welcome To ReaTwitterBot $grn --------------$rset"
+echo -e "$grn ------------------- $ylo Welcome To ReTwitterBot $grn --------------$rset"
 echo " "
 python3 Retweet.py
 echo " "
@@ -139,7 +131,7 @@ echo " "
 echo -e "$grn ＞＞＞＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜＜＜＜$rset"
 echo " "
 echo -e "$cyan click$grn ENTER$cyan to go back into ReTwitterBot menu$rset"
-echo -e "$cyan And Continue With Same Hastags Or No Of Retweets$rset"
+echo -e "$cyan   And Continue With Same Hastags Or No Of Retweets$rset"
 echo " "
 read punch
 cd $HOME/ReTwitterBot
