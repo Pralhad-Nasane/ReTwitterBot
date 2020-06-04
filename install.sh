@@ -192,12 +192,7 @@ bash install.sh ;;
 sleep 2.0
 clear
 echo " "
-echo -e "$grn
-     ____  _  _  ____    ____  _  _  ___
-    (  _ \( \/ )( ___)  (  _ \( \/ )( ___)
-     ) _ < \  /  )__)    ) _ < \  /  )__)
-    (____/ (__) (____)  (____/ (__) (____)...$cyan have a awesome day$rset"
-
+echo -e "$cyan have a awesome day$rset"
 echo " "
 echo " "
 esac
