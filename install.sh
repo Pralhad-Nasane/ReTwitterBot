@@ -190,9 +190,7 @@ bash install.sh ;;
 6)
 sleep 2.0
 clear
-echo " "
 cd $HOME/ReTwitterBot
 bash exit.sh
-echo " "
 exit
 esac
