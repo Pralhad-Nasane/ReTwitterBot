@@ -52,3 +52,164 @@ echo -e "$cyan [5️⃣] About Me"
 echo -e "$cyan [6️⃣] Exit"
 echo -e "$ylo Select any option :- $rset"
 read n
+case "$n" in
+1)echo " "
+echo " "
+echo -e "$red  You are going to$grn Install$red ReTwitterBot$rset"
+echo " "
+echo -e "$grn  Press$ylo ENTER$red to continue$rset"
+echo " "
+read hulke
+cd $HOME/ReTwitterBot
+bash process.sh
+echo " "
+echo " "
+echo -e "$grn ＞＞＞＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜＜＜＜$rset"
+echo " "
+echo -e "$cyan click$grn ENTER$cyan to go back into ReTwitterBot menu$rset"
+echo " "
+read punch
+cd $HOME/ReTwitterBot
+bash install.sh ;;
+
+2)echo " "
+echo " "
+echo -e "$red  You are going to$grn Star$red ReTwitterBot$rset"
+echo " "
+echo -e "$grn  Press$ylo ENTER$red to continue$rset"
+echo " "
+read hulke
+cd $HOME/ReTwitterBot
+echo "$ylo +~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~ "
+sleep 3.50
+echo " "
+echo  $p 'Please Wait ===+['$b'./                   '$p']\'
+sleep 0.4
+clear
+echo  $p 'Please Wait ===+['$b'..\                  '$p']|'
+sleep 0.4
+clear
+echo  $p 'Please Wait ===+['$b'.../                 '$p']/'
+sleep 0.4
+clear
+echo  $p 'Please Wait ===+['$b'....\                '$p']\'
+sleep 0.4
+clear
+echo  $p 'Please Wait ===+['$b'...../               '$p']|'
+sleep 0.4
+clear
+echo  $p 'Please Wait ===+['$b'......./             '$p']/'
+sleep 0.5
+clear
+echo  $p 'Please Wait ===+['$b'........\            '$p']|'
+sleep 0.5
+clear
+echo  $p 'Please Wait ===+['$b'........../          '$p']\'
+sleep 0.5
+clear
+echo  $p 'Please Wait ===+['$b'..........\          '$p']/'
+sleep 0.5
+clear
+echo  $p 'Please Wait ===+['$b'............./       '$p']|'
+sleep 0.6
+clear
+echo  $p 'Please Wait ===+['$b'..............\      '$p']/'
+sleep 0.6
+clear
+echo  $p 'Please Wait ===+['$b'............./       '$p']\'
+sleep 0.6
+clear
+echo  $p 'Please Wait ===+['$b'...............\     '$p']|'
+sleep 0.5
+clear
+echo  $p 'Please Wait ===+['$b'................/    '$p']/'
+sleep 0.4
+clear
+echo  $p 'Please Wait ===+['$b'.................\   '$p']\'
+sleep 0.4
+clear
+echo  $p 'Please Wait ===+['$b'.................../ '$p']|'                                     sleep 0.4
+echo " "
+echo " "
+python3 Retweet.py
+echo " "
+echo " "
+echo -e "$grn ＞＞＞＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜＜＜＜$rset"
+echo " "
+echo -e "$cyan click$grn ENTER$cyan to go back into ReTwitterBot menu$rset"
+echo -e "$cyan And Continue With Same Hastags Or No Of Retweets$rset"
+echo " "
+read punch
+cd $HOME/ReTwitterBot
+bash install.sh ;;
+
+3)echo " "
+echo " "
+echo -e "$red  You are going to$grn Update$red ReTwitterBot$rset"
+echo " "
+echo -e "$grn  Press$ylo ENTER$red to continue$rset"
+echo " "
+read hulke
+cd $HOME/ReTwitterBot
+bash update.sh
+echo " "
+echo " "
+echo -e "$grn ＞＞＞＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜＜＜＜$rset"
+echo " "
+echo -e "$cyan click$grn ENTER$cyan to go back into ReTwitterBot menu$rset"
+echo " "
+read punch
+cd $HOME/ReTwitterBot
+bash install.sh ;;
+
+4)echo " "
+echo " "
+echo -e "$red  You are going to$grn Delete$red ReTwitterBot$rset"
+echo " "
+echo -e "$grn  Press$ylo ENTER$red to continue$rset"
+echo " "
+read hulke
+cd $HOME/ReTwitterBot
+bash delete.sh
+echo " "
+echo " "
+echo -e "$grn ＞＞＞＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜＜＜＜$rset"
+echo " "
+echo -e "$cyan click$grn ENTER$cyan to go back into ReTwitterBot menu$rset"
+echo " "
+read punch
+cd $HOME/ReTwitterBot
+bash install.sh ;;
+
+5)echo " "
+echo " "
+echo -e "$red  You are going to$grn Read$red Read About Tool And Me$rset"
+echo " "
+echo -e "$grn  Press$ylo ENTER$red to continue$rset"
+echo " "
+read hulke
+cd $HOME/ReTwitterBot
+bash about.sh
+echo " "
+echo " "
+echo -e "$grn ＞＞＞＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜＜＜＜$rset"
+echo " "
+echo -e "$cyan click$grn ENTER$cyan to go back into ReTwitterBot menu$rset"
+echo " "
+read punch
+cd $HOME/ReTwitterBot
+bash install.sh ;;
+
+6)
+sleep 2.0
+clear
+echo " "
+echo -e "$grn
+                       ____  _  _  ____    ____  _  _  ____ 
+                      (  _ \( \/ )( ___)  (  _ \( \/ )( ___)
+                      ) _ < \  /  )__)    ) _ < \  /  )__) 
+                      (____/ (__) (____)  (____/ (__) (____)...$cyan Have A Nice Day$rset"
+echo " "
+echo " "
+exit
+esac
