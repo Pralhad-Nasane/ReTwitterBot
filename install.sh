@@ -118,25 +118,15 @@ clear
 echo  $p 'Please Wait ===+['$b'.................../ '$p']|'
 sleep 0.4
 echo " "
-echo -e "$grn
-
-______       _     _____ _             _           _  
-| ___ \     | |   /  ___| |           | |         | | 
-| |_/ / ___ | |_  \ `--.| |_ __ _ _ __| |_ ___  __| | 
-| ___ \/ _ \| __|  `--. \ __/ _` | '__| __/ _ \/ _` | 
-| |_/ / (_) | |_  /\__/ / || (_| | |  | ||  __/ (_| | 
-\____/ \___/ \__| \____/ \__\__,_|_|   \__\___|\__,_| 
-                                            v 1.1$rset"          
-                                                      
-
 echo " "
-echo " "
+echo -e "$ylo >>>>>>>>>>>>>>>>>>>WELCOME TO RETWITTERBOT<<<<<<<<<<<<<<<$rset"
 python3 Retweet.py
 echo " "
 echo " "
 echo -e "$grn ＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜$rset"
 echo " "
-cd $HOME ;;
+cd $HOME
+cd ;;
 3)echo " "
 echo " "
 echo " "
