@@ -11,19 +11,11 @@ from keys import *
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
-
-# Where q='#example', change #example to whatever hashtag or keyword you want to search.
-# Where items(5), change 5 to the amount of retweets you want to tweet.
-# Make sure you read Twitter's rules on automation - don't spammer.
-
-print('______       _     _____ _             _           _            ')          
-print('| ___ \     | |   /  ___| |           | |         | |  _        ')       
-print('| |_/ / ___ | |_  \ `--.| |_ __ _ _ __| |_ ___  __| | (_)______ ')
-print('| ___ \/ _ \| __|  `--. \ __/ _` | '__| --/ _ \/ _` |   |______|')
-print('| |_/ / (_) | |_  /\__/ / || (_| | |  | ||  __/ (_| |  _        ')       
-print('\____/ \___/ \__| \____/ \__\__,_|_|   \__\___|\__,_| (_)       ')
-      
-      
+#########################################################################################
+# Where q='#example', change #example to whatever hashtag or keyword you want to search.#
+# Where items(5), change 5 to the amount of retweets you want to tweet.                 #
+# Make sure you read Twitter's rules on automation - don't spammer.                     #
+#########################################################################################
 for tweet in tweepy.Cursor(api.search, q=('#NASA OR #ISRO -filter:retweets'), lang='en').items(5):
     try:
        
