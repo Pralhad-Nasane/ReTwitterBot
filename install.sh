@@ -181,7 +181,7 @@ ls
 bash about.sh
 echo " "
 echo " "
-echo -e "$cyan click$grn ENTER$cyan to go back into m-wiz menu$rset"
+echo -e "$cyan click$grn ENTER$cyan to go back into ReTwitterBot menu$rset"
 echo " "
 read punch
 cd $HOME/ReTwitterBot
