@@ -192,11 +192,7 @@ sleep 2.0
 clear
 echo " "
 clear
-echo -e "$ylo
-   ____  _  _  ____   
-  (  _ \( \/ )(  __)
-  ) _ ( )  /  ) _) 
-  (____/(__/  (____) $cyan Have A Nice Day Buddy $rset" 
+echo -e "$cyan Have A Nice Day Buddy......😘 $rset" 
 echo " "
 echo " "
 exit
