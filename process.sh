@@ -1,4 +1,6 @@
 echo " "
+echo -e "$grn I Hope So That You Already Created Your Developer Account As Per Instructions
+        If Not Then Go To My Github Link And Read All Procedures  "
 echo " "
 echo -e "$grn ♔🍪  Hello Guys To Install Bot You Have To Follow Some Instructions Carefully 🍭💗 "
 echo " "
