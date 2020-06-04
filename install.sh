@@ -17,6 +17,8 @@ pip install requests
 pip2 install requests
 clear
 echo " "
+echo -e "$grn  This Script Is Made For All Bot Lover Plz Don't Copy Any Part Of It $rset" 
+echo -e "$cyan  Author  $red: $grn Pralhad $rset"
 echo " "
 echo -e "$red
 
@@ -31,6 +33,12 @@ echo " "
 echo -e "$red      ▶ Coded by$grn PRALHAD $red ◀$rset"
 echo " "
 echo -e "$red⫸$ylo https://github.com/Pralhad-Nasane$red ⫷$rset"
+echo " "
+echo -e "$red===================$yloFollow Me On$red===================$rset"
+echo " "
+echo -e "$ylo     Twitter @pralhadnasane10     instagram @pralhadnasane$rset"
+echo " "
+echo -e "$cyan----------------$grnHAVING ANY DOUBT ASK ME$cyan----------$rset"
 echo " "
 echo -e "$grn ＞＞＞＞＞＞＞$ylo [OPTIONS]$grn ＜＜＜＜＜＜＜$rset"
 echo " "
