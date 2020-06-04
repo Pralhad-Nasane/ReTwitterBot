@@ -131,6 +131,8 @@ clear
 echo  $p 'Please Wait ===+['$b'.................../ '$p']|'                                     sleep 0.4
 echo " "
 echo " "
+echo -e "$grn ------------------- $ylo Welcome To ReaTwitterBot $grn ----------------
+echo " "
 python3 Retweet.py
 echo " "
 echo " "
