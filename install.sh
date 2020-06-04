@@ -119,14 +119,15 @@ echo  $p 'Please Wait ===+['$b'.................../ '$p']|'
 sleep 0.4
 echo " "
 echo " "
-echo -e "$ylo >>>>>>>>>>>>>>>>>>>WELCOME TO RETWITTERBOT<<<<<<<<<<<<<<<$rset"
+echo -e "$grn >>>>>>>>>>>>>>>>>$ylo WELCOME TO RETWITTERBOT$grn <<<<<<<<<<<<<$rset"
 python3 Retweet.py
 echo " "
 echo " "
 echo -e "$grn ＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜$rset"
 echo " "
 cd $HOME
-cd ;;
+cd 
+ls ;;
 3)echo " "
 echo " "
 echo " "
