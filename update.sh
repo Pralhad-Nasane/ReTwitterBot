@@ -43,6 +43,5 @@ sleep 3.0
 echo " "
 cd $HOME
 cd ReTwitterBot
-bash imstall.sh
-clear
+bash install.sh
 sleep 1.0
