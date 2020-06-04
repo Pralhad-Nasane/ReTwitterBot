@@ -39,7 +39,7 @@ echo " "
 echo -e "$ylo   Twitter @pralhadnasane10 $rset" 
 echo -e "$ylo   Instagram @pralhadnasane $rset"
 echo " "
-echo -e "$cyan -----------------$grn HAVING ANY DOUBT ASK ME $cyan----------------- $rset"
+echo -e "$cyan -----------------$grn HAVING ANY DOUBT ASK ME $cyan---------------- $rset"
 echo " "
 echo -e "$grn ＞＞＞＞＞＞＞$ylo [OPTIONS]$grn ＜＜＜＜＜＜＜＜$rset"
 echo " "
@@ -192,15 +192,13 @@ sleep 2.0
 clear
 echo " "
 clear
-echo '
+echo -e "$ylo
 ________   _______ 
 | ___ \ \ / /  ___|
 | |_/ /\ V /| |__  
 | ___ \ \ / |  __| 
 | |_/ / | | | |___ 
-\____/  \_/ \____/ Have A Nice Day Buddy 
- '| lolcat
-
+\____/  \_/ \____/ $cyan Have A Nice Day Buddy $rset" 
 echo " "
 echo " "
 exit
