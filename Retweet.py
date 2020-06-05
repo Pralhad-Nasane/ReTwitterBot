@@ -20,7 +20,7 @@ api = tweepy.API(auth)
 for tweet in tweepy.Cursor(api.search, q=('#NASA OR #ISRO -filter:retweets'), lang='en').items(10):
     try:
        
-        print(Fore.GREEN + '\nTweet by:-' Fore.BLUE + '@'tweet.user.screen_name + '. ' + 'Attempting to retweet.')
+        print(Fore.GREEN + '\nTweet by:-' Fore.BLUE + @'tweet.user.screen_name + '. ' + 'Attempting to retweet.')
         
         tweet.retweet()
         print(Fore.BLUE + 'Retweeted the tweet')
