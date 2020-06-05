@@ -19,10 +19,10 @@ api = tweepy.API(auth)
 for tweet in tweepy.Cursor(api.search, q=('#NASA OR #ISRO -filter:retweets'), lang='en').items(5):
     try:
        
-        print(colored('\nTweet by: @' + tweet.user.screen_name + '. ' + 'Attempting to retweet.'cyan'))
+        print(colored('\nTweet by: @' + tweet.user.screen_name + '. ' + 'Attempting to retweet.''cyan'))
         
         tweet.retweet()
-        print(colored('Retweeted the tweet'green'))
+        print(colored('Retweeted the tweet''green'))
 
     except tweepy.TweepError as e:
         print(e.reason)
