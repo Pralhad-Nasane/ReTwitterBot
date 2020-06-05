@@ -5,6 +5,8 @@
 ################################################################################
 import tweepy
 from time import sleep
+import colorama 
+from colorama import Fore 
 # Import in your Twitter application keys, tokens, and secrets.
 from keys import *
 
@@ -19,10 +21,10 @@ api = tweepy.API(auth)
 for tweet in tweepy.Cursor(api.search, q=('#NASA OR #ISRO -filter:retweets'), lang='en').items(5):
     try:
        
-        print('\nTweet by: @' + tweet.user.screen_name + '. ' + 'Attempting to retweet.')
+        print(Fore.YELLOW'\nTweet by: @' + tweet.user.screen_name + '. ' + 'Attempting to retweet.')
         
         tweet.retweet()
-        print('Retweeted the tweet')
+        print(Fore.BLUE'Retweeted the tweet')
 
     except tweepy.TweepError as e:
         print(e.reason)
