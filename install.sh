@@ -127,16 +127,17 @@ clear
 echo  $p 'Please Wait ===+['$b'.................../ '$p']|'                                  
 sleep 0.4
 echo " "
+clear
 echo " "
 echo -e "$grn ------------------- $ylo Welcome To ReTwitterBot $grn --------------$rset"
 echo " "
 python3 Retweet.py
 echo " "
+echo -e "$grn ----------------- $ylo Thanks For Using ReTwitterBot $grn --------------$rset"
 echo " "
-echo -e "$grn ＞＞＞＞＞＞＞＞＞＞＞$ylo [EXIT]$grn ＜＜＜＜＜＜＜＜＜＜＜＜$rset"
 echo " "
 echo -e "$cyan click$grn ENTER$cyan to go back into ReTwitterBot menu$rset"
-echo -e "$cyan   And Continue With Same Hastags Or No Of Retweets$rset"
+echo -e "$ylo And Continue With Same Hastags Or No Of Retweets$rset"
 echo " "
 read punch
 cd $HOME/ReTwitterBot
