@@ -177,8 +177,8 @@ echo " "
 echo -e "$cyan click$grn ENTER$cyan to go back into ReTwitterBot menu$rset"
 echo " "
 read punch
-cd $HOME/ReTwitterBot
-bash install.sh ;;
+cd $HOME
+clear ;;
 
 5)echo " "
 echo " "
