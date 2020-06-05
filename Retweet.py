@@ -3,11 +3,12 @@
 #  AUTHOR    : PRALHAD NASANE                                                  #
 #  DATE      : 03-JUNE-2020                                                    #
 ################################################################################
+import sys 
 import tweepy
 from time import sleep
 # Import in your Twitter application keys, tokens, and secrets.
 from keys import *
-
+pip install colorama
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
