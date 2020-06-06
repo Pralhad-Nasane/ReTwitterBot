@@ -18,7 +18,7 @@ api = tweepy.API(auth)
 # Where items(10), change 10 to the amount of retweets you want to tweet.               #
 # Make sure you read Twitter's rules on automation - don't spammer.                     #
 #########################################################################################
-for tweet in tweepy.Cursor(api.search, q=('#NASA OR #ISRO -filter:retweets'), lang='en').items(10):
+for tweet in tweepy.Cursor(api.search, q=('#NASA OR #ISRO -filter:retweets'), lang='en').items(50):
     try:
        
         print(Fore.YELLOW + '\nTweet by: @' + tweet.user.screen_name + '. ' + 'Attempting to retweet.')
