@@ -19,6 +19,12 @@
 
 <head><h2><align="center">ReTwitterBot Is A Official Tool Made By Me For Termux</h2> </head>
 
+### Story Behind This Tool :-
++ _I want A Twitter Retweet Bot Which Retweet Tweet According To Hastage_
+   _I Search A Lot Of Tool In Google But I can't get any Suitable Bot_ 
+   _Which run in android.So I decided to make own tool_
+   _I made This Tool With Python And Bash Script_
+
 ### Available In 
 
 **🐦ReTwitterBot** works on any of the following operating systems:
@@ -29,11 +35,6 @@
 
 • **Unix**
 
-### Story Behind This Tool :-
-+ _I want A Twitter Retweet Bot Which Retweet Tweet According To Hastage_
-   _I Search A Lot Of Tool In Google But I can't get any Suitable Bot_ 
-   _Which run in android.So I decided to make own tool_
-   _I made This Tool With Python And Bash Script_
 ### How To Start
 + *If You Don't Have Any Twitter Account Than Make A Twitter Account *
 + *Apply For Developer Account on https://developer.twitter.com/ *
