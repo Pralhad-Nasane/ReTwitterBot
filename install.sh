@@ -13,6 +13,16 @@ pink='\033[1;35m'
 #coding section starts :)
 clear
 echo " "
+pkg install python
+pkg install python2
+pip install requests
+pip2 install requests
+pip install colorama
+pip2 install colorama
+gem install lolcat
+pkg install nano
+clear
+echo " "
 echo -e "$grn  This Script Is Made For All Bot Lover Plz Don't Copy Any Part Of It $rset" 
 echo " "
 echo -e "$cyan  Author  $red: $grn Pralhad $rset"
