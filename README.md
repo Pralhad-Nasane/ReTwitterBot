@@ -1,5 +1,5 @@
 
-<p align="center"><a href="https://ibb.co/JpgRcW4"><img src="https://i.ibb.co/R6dpgGm/20200606-145906.jpg" alt="20200606-145906" height="35%" width="55%" border="0"></a></p>
+<p align="center"><a href="https://ibb.co/JpgRcW4"><img src="https://i.ibb.co/R6dpgGm/20200606-145906.jpg" alt="20200606-145906" height="65%" width="90%" border="0"></a></p>
 <p align="center">
 <img src="https://img.shields.io/badge/OFFICIAL-😎-brightgreen.svg?style=plastic">
 <img src="https://img.shields.io/badge/Python-3-brightgreen.svg?style=plastic">
