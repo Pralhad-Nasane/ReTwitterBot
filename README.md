@@ -12,7 +12,7 @@
 <img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
 </p>
 
-[![GitHub stars](https://img.shields.io/github/stars/Pralhad-Nasane/ReTwitterBot.svg?style=social&label=Star)](https://github.com/Pralhad-Nasane/ReTwitterBot) 
+[![GitHub stars](https://img.shields.io/github/stars/Pralhad-Nasane/ReTwitterBot.svg?style=social&label=Star)](https://github.com/Pralhad-Nasane/ReTwitterBot/star) 
 [![GitHub forks](https://img.shields.io/github/forks/Pralhad-Nasane/ReTwitterBot.svg?style=social&label=Fork)](https://github.com/Pralhad-Nasane/ReTwitterBot/fork) [![GitHub watchers](https://img.shields.io/github/watchers/Pralhad-Nasane/ReTwitterBot.svg?style=social&label=Watch)](https://github.com/Pralhad-Nasane/ReTwitterBot) [![GitHub followers](https://img.shields.io/github/followers/Pralhad-Nasane.svg?style=social&label=Follow)](https://github.com/Pralhad-Nasane/ReTwitterBot)  
 [![Twitter Follow](https://img.shields.io/twitter/follow/pralhadnasane10.svg?style=social)](https://twitter.com/pralhadnasane10)
 [![Github all releases](https://img.shields.io/github/downloads/Pralhad-Nasane/ReTwitterBot/total.svg?style=plastic)](https://GitHub.com/Pralhad-Nasan/ReTwitterBot/releases/)
