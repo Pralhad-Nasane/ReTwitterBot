@@ -92,6 +92,6 @@
 + **Send a pull request** - If you want to contribute 🛂
 
 ### Need Any Help :
-+ ##### Message Me on Twitter OR Instagram 📨
++ ##### Just Open a Issue.
 
 ## Follow Me For More Tools... 😍
